@@ -4,7 +4,7 @@
   "description": "A MagicMirror module that displays the days MLB games",
   "dependencies":{
   "axios": "^9.6.0",
-  }
+  },
   "main": "MMM-ScoreBoard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
