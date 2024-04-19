@@ -1,0 +1,29 @@
+#MMM-ScoreBoard{
+  padding:0;
+}
+.scoreBoardWrapper{
+  column-count:2;
+  column-gap:0px;
+  max-height:1000px;
+  width:240px;
+  flex-grow:1;
+  margin:0;
+  padding: 0;
+}
+
+.gameWrapper{
+  height:100px;
+  width:120px;
+  break-inside: avoid;
+  border: 1px solid whitesmoke;
+  padding-bottom:5px;
+  margin: 0;
+  padding: 5px;
+}
+.gameData{
+  line-height:30px;
+  padding:0;
+  margin: 0;
+  font-size:30px;
+  text-align:center;
+}
