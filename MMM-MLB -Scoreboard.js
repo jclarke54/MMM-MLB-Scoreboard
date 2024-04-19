@@ -1,4 +1,4 @@
-Module.register("MMM-ScoreBoard", {
+Module.register("MMM-MLB-Scoreboard", {
     // Default module config.
     defaults: {
         // Define placeholder for the scraped data.
@@ -7,7 +7,7 @@ Module.register("MMM-ScoreBoard", {
   
     // Override the start method.
     start: function () {
-        console.log('Starting MagicMirror module: MMM-ScoreBoard');
+        console.log('Starting MagicMirror module: MMM-MLB-Scoreboard');
         this.sendSocketNotification("START_ScoreBoard_SCRAPE", this.config);
 
         // Schedule periodic updates every 5 minutes (300,000 milliseconds).
