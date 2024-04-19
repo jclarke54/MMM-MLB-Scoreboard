@@ -4,6 +4,8 @@
 A Magic Mirror module that displays the days MLB games
 
 
+## Screenshots
+![App Screenshot](https://raw.githubusercontent.com/jclarke54/MMM-MLB-Scoreboard/main/MMM-MLB-Scoreboard-Preview.png)
 
 ## Installation
 
