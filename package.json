@@ -1,0 +1,29 @@
+{
+  "name": "mmm-mlb-scoreboard",
+  "version": "1.0.0",
+  "description": "A MagicMirror module that displays the days MLB games",
+  "dependencies":{
+  "axios": "^9.6.0",
+  }
+  "main": "MMM-ScoreBoard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jclarke54/MMM-MLB-Scoreboard.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "MLB",
+    "Scores",
+    "Sports",
+    "Baseball"
+  ],
+  "author": "Joe Clarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jclarke54/MMM-MLB-Scoreboard/issues"
+  },
+  "homepage": "https://github.com/jclarke54/MMM-MLB-Scoreboard#readme"
+}
