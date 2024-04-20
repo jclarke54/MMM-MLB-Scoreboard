@@ -5,7 +5,7 @@
   column-count:2;
   column-gap:0px;
   max-height:1000px;
-  width:240px;
+  width:300px;
   flex-grow:1;
   margin:0;
   padding: 0;
@@ -13,7 +13,7 @@
 
 .gameWrapper{
   height:100px;
-  width:120px;
+  width:150px;
   break-inside: avoid;
   border: 1px solid whitesmoke;
   padding-bottom:5px;
