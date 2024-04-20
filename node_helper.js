@@ -67,17 +67,7 @@ module.exports = NodeHelper.create({
                     const games = response.data.dates[0].games;
 
                                         const gameStatus = [];
-
-                                        for (i = 0; i<games.length; i++){
-                                                if (games[i].status.abstractGameState === "Preview"){
-                                                        gameStatus[i] = "Pregame";
-                                                }
-                                                else{
-                                                        gameStatus[i] = games[i].status.abstractGameState;
-                                                }
-
-                                        }
-
+                    
                                         const scores = {
                                                 home:[],
                                                 away:[]
@@ -97,6 +87,19 @@ module.exports = NodeHelper.create({
                                                 else{
                                                         scores.away[i] = games[i].teams.away.score;
                                                 }
+                                        }
+                    
+                                        for (i = 0; i<games.length; i++){
+                                                if (games[i].status.abstractGameState === "Preview"){
+                                                        gameStatus[i] = "Pregame";
+                                                }
+                                                else if (scores.away[i] == 0 && scores.home[i] == 0 && games[i].status.abstractGameState === "Final"){
+                                                        gamesStatus[i] = "Postponed";
+                                                }
+                                                else{
+                                                        gameStatus[i] = games[i].status.abstractGameState;
+                                                }
+
                                         }
 
                     //console.log('Fetched games:', games);
