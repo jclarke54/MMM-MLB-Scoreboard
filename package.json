@@ -1,9 +1,9 @@
 {
   "name": "mmm-mlb-scoreboard",
   "version": "1.0.0",
-  "description": "A MagicMirror module that displays the days MLB games",
+  "description": "A MagicMirror² module that displays the days MLB games.",
   "dependencies":{
-    "axios": "^1.6.8",
+    "axios": "^1.6.8"
   },
   "main": "MMM-ScoreBoard.js",
   "scripts": {
