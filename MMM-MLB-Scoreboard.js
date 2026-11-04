@@ -4,6 +4,11 @@ Module.register("MMM-MLB-Scoreboard", {
         // Define placeholder for the scraped data.
         scrapedScoreBoardData: [],
     },
+    
+    // Load styles
+    getStyles: function () {
+        return ["MMM-MLB-Scoreboard.css"];
+    },
   
     // Override the start method.
     start: function () {
